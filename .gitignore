@@ -1,0 +1,20 @@
+# ===== khas-theme (WordPress theme) =====
+# This is an independent repository, separate from khas-pwa (the Next.js app).
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Packaging output (regenerate with the zip command in DEPLOYMENT.md)
+*.zip
+
+# Local WordPress install artifacts (if developed inside a full WP install)
+/wp-config.php
+/wp-content/uploads/
+/wp-content/cache/
+
+# Dependency directories (only relevant if composer/node tooling is added later)
+/vendor/
+/node_modules/
